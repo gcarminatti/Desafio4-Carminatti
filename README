@@ -1,0 +1,17 @@
+Implementacion de websockets y plantilas Handlebars a nuestro productos .
+
+Para correr la aplicacion necesitamos ir a la carpeta src y correr el comando :
+
+node app.js
+
+Vistas configuradas :
+http://localhost:8080/realtimeproducts - Vista usando socketio IO
+
+http://localhost:8080/productsList - Vista de todos los productos
+
+Para modificar la vista en tiempo real realtimeproducts podemos hacer eso de una solicitud Post mediante Postman por ejemplo y cuerpo ejemplo :
+{
+"title": "Producto Asus",
+"description": "Descripción del producto 1",
+"price": 19.99
+}
